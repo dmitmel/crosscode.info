@@ -23,17 +23,17 @@ For now this section is incomplete and more information can be obtained on the [
 
 Why are you asking me where you installed the game? You would probably know that better than myself. However, here's a quick way to locate the installation folder in case you are using Steam:
 
-1. Find CrossCode in your game library.
-2. Right-click it, in the context menu press `Properties...`.
+1. Find CrossCode in your game library
+2. Right-click it, in the context menu press `Properties...`
 
    ![steam-crosscode-properties.png](media/steam-crosscode-properties.png)
 
-3. In the new window select the `LOCAL FILES` tab.
+3. In the new window select the `LOCAL FILES` tab
 4. You'll be presented with the following menu:
 
    ![steam-browse-local-files.png](media/steam-browse-local-files.png)
 
-   Click the `BROWSE LOCAL FILES...` button and you'll be taken to the installation folder.
+   Click the `BROWSE LOCAL FILES...` button and you'll be taken to the installation folder
 
 The common paths where Steam installs CrossCode are:
 
@@ -91,12 +91,12 @@ All other files come from the standard nw.js packages [you can download yourself
 
 **macOS:** Extra care needs to be taken on mac because the game files are stored inside of nw.js's application. After locating the [**game installation folder**](#game-installation-folder) you need to:
 
-1. Right-click the app named `nwjs` or `CrossCode`.
-2. In the context menu select `Show Package Contents`.
+1. Right-click the app named `nwjs` or `CrossCode`
+2. In the context menu select `Show Package Contents`
 
    ![macos-show-nwjs-package-contents.png](media/macos-show-nwjs-package-contents.png)
 
-3. Go to the folder named `Contents`, then `Resources`, then `app.nw`.
+3. Go to the folder named `Contents`, then `Resources`, then `app.nw`
 
    ![macos-package-contents-app-nw.png](media/macos-package-contents-app-nw.png)
 

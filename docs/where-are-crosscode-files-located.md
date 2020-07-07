@@ -59,7 +59,7 @@ Here's how this folder looks on different platforms:
 
 ## Game files folder
 
-Due to, uhm... _interesting_ structure of the CrossCode's macOS application, [**game installation folder**](#game-installation-folder) is not necessarily the same as the **game files folder**. It also isn't the same as the [**game assets folder**](#game-assets-folder). Files (HTML pages and JavaScript scripts) in this folder have full access to all of game's nw.js's features, and thus this folder is commonly used as a home for mods, modding tools and CCLoader in particular. On MS Windows and GNU/Linux it is the same as the installation folder, as such it also contains nw.js's files on these platforms.
+Due to the, uhm... _interesting_ structure of the CrossCode's macOS application, the [**game installation folder**](#game-installation-folder) is not necessarily the same as the **game files folder**. It also isn't the same as the [**game assets folder**](#game-assets-folder). Files (HTML pages and JavaScript scripts) in this folder have full access to all of the game's nw.js's features, and thus this folder is commonly used as a home for mods, modding tools and CCLoader in particular. On MS Windows and GNU/Linux it is the same as the installation folder, as such it also contains nw.js's files on these platforms.
 **Note for people who purchased the game from the Microsoft store**: unfortunately the game files are hidden and/or encrypted in the MS store edition, so there is no way to access or modify them, consider asking someone who bought a DRM-free version of the game to send you those files.
 
 Anyway, here are the contents of this folder on different platforms in a fresh non-modded copy of CrossCode:

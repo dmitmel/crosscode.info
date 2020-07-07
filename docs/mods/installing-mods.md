@@ -51,3 +51,16 @@ To locate your mods folder you first need to find the [CrossCode game files fold
 ## Step 4. PROFIT!!!11!1!!!
 
 This basically concludes installation of perfectly regular mods.
+
+## Common mod installation problems
+
+### "Problem with requirements of mod" errors are printed and the mod isn't loaded
+
+Some mods work only on certain versions of CrossCode or CCLoader and some mods require other mods to function (so-called libraries). If these requirements of a given mod aren't met when the game is loaded, the modloader will simply skip this mod and proceed to start the game without it.
+
+| Requirement error                    | Explanation                                                                                                                                                |
+| ------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `mod 'xyz' is not installed`         | The mod `xyz` is a so-called "dependency" of the mod you installed and you should install it as well. Usually dependencies are listed in the mod's README. |
+| `mod 'xyz' is disabled`              | Unsurprisingly, you have to enable the mod `xyz` to get the installed mod working.                                                                         |
+| `mod 'xyz' is not loaded`            | If there is a problem in the chain of dependencies, then all mods in that chain aren't loaded. See the error which caused `xyz` to not be loaded.          |
+| `version of xyz is not in range abc` | The installed mod is compatible with a specific range of versions of `xyz`, try downgrading or upgrading `xyz`.                                            |

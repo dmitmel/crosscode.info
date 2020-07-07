@@ -48,6 +48,14 @@ curl --location --fail 'https://github.com/dmitmel/ccloader3/releases/download/v
   | tar --extract --gzip --verbose --file -
 ```
 
+### Verifying a successful CCLoader installation
+
+Upon launching the game you'll see the CCLoader version in the bottom right corner of the title screen and at the top of the pause screen (where the game version is) if CCLoader was installed correctly. You'll also be able to see the following tab in the options menu:
+
+![ccloader-mod-settings-menu.png](media/ccloader-mod-settings-menu.png)
+
+It will obviously be empty if you haven't installed any mods.
+
 ## Method 2: Using the automatic installer
 
 See <https://github.com/CCDirectLink/ccloader-installer>. It may be broken though.

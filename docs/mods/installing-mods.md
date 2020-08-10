@@ -18,7 +18,7 @@ Most mods are distributed as zip archives. There are two ways to obtain those:
 
 _See also [this section](installing-ccloader.md#very-important-note-dont-use-the-green-clone-or-download-button) of the CCLoader installation guide_
 
-Unless explicitely stated otherwise in the mod's README, **when actually downloading mods you should always check first for released versions**, or "releases" for short. Most mod authors use GitHub for storing source code and distributing releases where you can access the page with changelogs and downloads through these links:
+Unless explicitly stated otherwise in the mod's README, **when actually downloading mods you should always check first for released versions**, or "releases" for short. Most mod authors use GitHub for storing source code and distributing releases where you can access the page with changelogs and downloads through these links:
 
 ![github-mod-releases.png](media/github-mod-releases.png)
 
@@ -64,3 +64,4 @@ Some mods work only on certain versions of CrossCode or CCLoader and some mods r
 | `mod 'xyz' is disabled`              | Unsurprisingly, you have to enable the mod `xyz` to get the installed mod working.                                                                         |
 | `mod 'xyz' is not loaded`            | If there is a problem in the chain of dependencies, then all mods in that chain aren't loaded. See the error which caused `xyz` to not be loaded.          |
 | `version of xyz is not in range abc` | The installed mod is compatible with a specific range of versions of `xyz`, try downgrading or upgrading `xyz`.                                            |
+| `mod 'xyz' doesn't have a version`   | The developer of the mod you are installing likely made a mistake or you downloaded a very old development version of `xyz`.                               |
